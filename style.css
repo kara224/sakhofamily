@@ -1,0 +1,72 @@
+/* STYLE GENERAL */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fefcf7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* EN-TÊTE */
+header {
+  background-color: #2f4f4f;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #f5eecf;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* CONTENU PRINCIPAL */
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* BOUTONS / BLOCS LIENS */
+.button-link {
+  display: inline-block;
+  background-color: #6b8e23;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  margin: 10px 5px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.button-link:hover {
+  background-color: #5c7a1e;
+}
+
+/* PIED DE PAGE */
+footer {
+  background-color: #2f4f4f;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+Ajout de style.css
